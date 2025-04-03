@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GameZone - Seu portal de jogos</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-content">
+        <div class="header-brand">
+          <img src="assets/icon.png" alt="GameZone" />
+        </div>
+
+        <nav class="header-navigation" aria-label="Navegação principal">
+          <ul class="header-links">
+            <li><a href="/noticias">Notícias</a></li>
+            <li><a href="/analises">Análises</a></li>
+            <li><a href="/comunidade">Comunidade</a></li>
+            <li><a href="/lançamentos">Lançamentos</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <button class="btn btn-login">Entrar</button>
+          <button class="btn btn-register">Cadastre-se</button>
+        </div>
+      </div>
+    </header>
+
+    <div class="image-carousel">
+      <div class="carousel-container">
+        <div class="carousel-track">
+          <div class="carousel-slide">
+            <img src="assets/carousel1.jpg" alt="Novo jogo de aventura" />
+          </div>
+          <div class="carousel-slide">
+            <img src="assets/img2.png" alt="Pré-venda exclusiva" />
+          </div>
+          <div class="carousel-slide">
+            <img src="assets/img3.png" alt="Torneio de e-sports" />
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-nav">
+        <button class="carousel-prev">‹</button>
+        <button class="carousel-next">›</button>
+      </div>
+
+      <div class="carousel-dots"></div>
+    </div>
+
+    <main class="about-container">
+      <section class="about-content">
+        <h1>Sobre o GameZone</h1>
+        <p>
+          Bem-vindo ao GameZone, o seu portal definitivo para o mundo dos jogos!
+          Somos apaixonados por games e dedicados a trazer as últimas notícias,
+          análises detalhadas e cobertura completa dos maiores eventos do mundo
+          dos jogos. Nossa missão é criar uma comunidade vibrante onde jogadores
+          de todos os tipos possam se conectar, compartilhar experiências e
+          descobrir novos jogos incríveis. Cobrimos desde os grandes lançamentos
+          AAA até jogos independentes inovadores.
+        </p>
+      </section>
+
+      <aside class="social-sidebar">
+        <h2>Conecte-se conosco</h2>
+        <div class="social-links">
+          <a href="https://twitch.tv/gamezone" target="_blank">
+            <i class="fab fa-twitch"></i>
+            <span>Twitch</span>
+          </a>
+          <a href="https://twitter.com/gamezone" target="_blank">
+            <i class="fab fa-twitter"></i>
+            <span>Twitter</span>
+          </a>
+          <a href="https://discord.gg/gamezone" target="_blank">
+            <i class="fab fa-discord"></i>
+            <span>Discord</span>
+          </a>
+          <a href="https://youtube.com/gamezone" target="_blank">
+            <i class="fab fa-youtube"></i>
+            <span>YouTube</span>
+          </a>
+        </div>
+      </aside>
+    </main>
+
+    <section class="games-section">
+      <h1>Jogos em Destaque</h1>
+
+      <div class="games-carousel">
+        <div class="game-card">
+          <img src="assets/game1.png.jpg" alt="Undertale" />
+          <div class="game-info">
+            <h3>Undertale</h3>
+            <p>RPG/Aventura</p>
+            <div class="game-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <button class="action-btn">Ver análise</button>
+          </div>
+        </div>
+
+        <div class="game-card">
+          <img src="assets/game2.jpg" alt="Valorant" />
+          <div class="game-info">
+            <h3>Valorant</h3>
+            <p>FPS</p>
+            <div class="game-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <button class="action-btn">Ver análise</button>
+          </div>
+        </div>
+
+        <div class="game-card">
+          <img src="assets/game3.png" alt="Pokemon Emerald" />
+          <div class="game-info">
+            <h3>Pokémon Emerald</h3>
+            <p>RPG</p>
+            <div class="game-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <button class="action-btn">Ver análise</button>
+          </div>
+        </div>
+
+        <div class="game-card">
+          <img src="assets/game4.png" alt="Yakuza" />
+          <div class="game-info">
+            <h3>Yakuza</h3>
+            <p>Aventura/RPG/Ação</p>
+            <div class="game-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <button class="action-btn">Ver análise</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-controls">
+        <button class="prev-btn">‹</button>
+        <button class="next-btn">›</button>
+      </div>
+    </section>
+
+    <section class="info-cards">
+      <div class="info-card">
+        <h3><i class="fas fa-gamepad"></i> Novidades</h3>
+        <ul class="feature-list">
+          <li>
+            <i class="fas fa-newspaper"></i> <strong>Últimas notícias</strong> -
+            Tudo sobre os jogos mais aguardados e atualizações.
+          </li>
+          <li>
+            <i class="fas fa-calendar-alt"></i> <strong>Eventos</strong> -
+            Calendário completo de lançamentos e eventos de e-sports.
+          </li>
+          <li>
+            <i class="fas fa-trophy"></i> <strong>Competições</strong> -
+            Cobertura dos maiores torneios de e-sports do mundo.
+          </li>
+        </ul>
+      </div>
+
+      <div class="info-card">
+        <h3><i class="fas fa-star"></i> Análises</h3>
+        <ul class="feature-list">
+          <li>
+            <i class="fas fa-search"></i>
+            <strong>Avaliações detalhadas</strong> - Análises imparciais dos
+            principais lançamentos.
+          </li>
+          <li>
+            <i class="fas fa-video"></i> <strong>Gameplay</strong> - Vídeos
+            mostrando os jogos em ação.
+          </li>
+          <li>
+            <i class="fas fa-chart-bar"></i> <strong>Comparativos</strong> -
+            Veja como os jogos se saem em diferentes plataformas.
+          </li>
+        </ul>
+      </div>
+
+      <div class="info-card">
+        <h3><i class="fas fa-users"></i> Comunidade</h3>
+        <ul class="feature-list">
+          <li>
+            <i class="fas fa-comments"></i> <strong>Fóruns</strong> - Discuta
+            com outros jogadores.
+          </li>
+          <li>
+            <i class="fas fa-user-plus"></i> <strong>Encontre squad</strong> -
+            Conecte-se com outros jogadores para formar times.
+          </li>
+          <li>
+            <i class="fas fa-share-alt"></i> <strong>Conteúdo de fãs</strong> -
+            Destaque para a criatividade da comunidade.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="callout-box">
+      <p>
+        "Jogos são a única forma de arte que permite a interatividade. Nós
+        apenas fornecemos o palco."
+      </p>
+      <a href="/comunidade" class="cta-button pulse"
+        >Junte-se à comunidade <i class="fas fa-arrow-right"></i
+      ></a>
+    </div>
+
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-brand">
+          <img
+            src="https://via.placeholder.com/200x50?text=GameZone"
+            alt="GameZone"
+            class="footer-logo"
+          />
+          <p class="footer-slogan">Onde os jogadores se encontram! 🎮</p>
+          <div class="footer-social-links">
+            <a href="#" class="footer-social-icon"
+              ><i class="fab fa-twitch"></i
+            ></a>
+            <a href="#" class="footer-social-icon"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="#" class="footer-social-icon"
+              ><i class="fab fa-discord"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h4 class="footer-title">Navegação</h4>
+          <ul class="footer-links-list">
+            <li><a href="/" class="footer-link">Home</a></li>
+            <li><a href="/noticias" class="footer-link">Notícias</a></li>
+            <li><a href="/analises" class="footer-link">Análises</a></li>
+            <li><a href="/comunidade" class="footer-link">Comunidade</a></li>
+            <li><a href="/contato" class="footer-link">Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4 class="footer-title">Contato</h4>
+          <ul class="footer-contact-info">
+            <li>
+              <i class="fas fa-envelope footer-contact-icon"></i>
+              contato@gamezone.com.br
+            </li>
+            <li>
+              <i class="fas fa-phone footer-contact-icon"></i> (11) 98765-4321
+            </li>
+            <li>
+              <i class="fas fa-map-marker-alt footer-contact-icon"></i> São
+              Paulo - SP
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4 class="footer-title">Newsletter</h4>
+          <form class="footer-newsletter-form">
+            <input
+              type="email"
+              placeholder="Seu melhor e-mail"
+              required
+              class="footer-newsletter-input"
+            />
+            <button type="submit" class="footer-newsletter-button">
+              Assinar <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+          <p class="footer-text">
+            Receba as últimas notícias e ofertas diretamente no seu e-mail.
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copyright">
+          © 2023 GameZone. Todos os direitos reservados.
+        </p>
+        <div class="footer-legal-links">
+          <a href="/politica-de-privacidade" class="footer-legal-link"
+            >Política de Privacidade</a
+          >
+          <a href="/termos-de-uso" class="footer-legal-link">Termos de Uso</a>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
